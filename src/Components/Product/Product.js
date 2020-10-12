@@ -4,7 +4,7 @@ import './Product.css'
 
 function Product({id, title , image , price , rating}) {
 
-    const [state , dispatch ] = useStateValue();
+    const [ , dispatch ] = useStateValue();
 
     const addToBasket =() =>{
         // dispatch   action item into  to data layer 
